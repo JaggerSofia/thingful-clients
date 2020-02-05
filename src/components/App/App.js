@@ -36,18 +36,6 @@ class App extends Component {
             <PublicOnlyRoute path={'/register'} component={RegistrationPage} />
             <PrivateRoute path={'/thing/:thingId'} component={ThingPage} />
             <Route
-              path={'/login'}
-              component={LoginPage}
-            />
-            <Route
-              path={'/register'}
-              component={RegistrationPage}
-            />
-            <Route
-              path={'/thing/:thingId'}
-              component={ThingPage}
-            />
-            <Route
               component={NotFoundPage}
             />
           </Switch>
